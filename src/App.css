@@ -15,6 +15,11 @@ body {
   padding-top: 2em; 
   padding-left: 2em;
   background-color: lightblue;
+  position: relative;
+}
+
+.mapContainer div{
+  position: relative;
 }
 
 .quakeContainer {
@@ -22,4 +27,8 @@ body {
   padding-top: 2em; 
   padding-right: 2em;
   background-color: pink;
+}
+
+#map {
+  height: 100%;
 }
